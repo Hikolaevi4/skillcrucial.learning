@@ -46,7 +46,6 @@ echo.on('connection', (conn) => {
 
 
 server.get('/js/variables.js', (req, res) => {
-  console.log('I am here')
   res.send(
     Variables({
       clientVariables
